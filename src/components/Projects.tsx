@@ -8,6 +8,7 @@ interface Project {
   id: string;
   name: string;
   category: string;
+  location: string;
   year: string;
   services: string[];
   description: string;
@@ -20,10 +21,7 @@ const projects: Project[] = [
     id: 'p1',
     name: 'Modern Corner Villa — Elevation',
     category: '3D Elevations',
-<<<<<<< HEAD
-=======
     location: 'Chittoor, AP',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Exterior Design', 'Gate Design'],
     description:
@@ -35,10 +33,7 @@ const projects: Project[] = [
     id: 'p2',
     name: 'Four-Storey Residence — Elevation',
     category: '3D Elevations',
-<<<<<<< HEAD
-=======
     location: 'Chittoor, AP',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Facade Design', 'Landscape Planning'],
     description:
@@ -50,10 +45,7 @@ const projects: Project[] = [
     id: 'p3',
     name: 'Curved Balcony Villa — Elevation',
     category: '3D Elevations',
-<<<<<<< HEAD
-=======
     location: 'Andhra Pradesh',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Jali Screens', 'Compound Wall'],
     description:
@@ -65,10 +57,7 @@ const projects: Project[] = [
     id: 'p4',
     name: '20×70 Floor Plan — 2BHK',
     category: '2D Floor Plans',
-<<<<<<< HEAD
-=======
     location: 'Chittoor, AP',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['2D Floor Plan', 'Space Optimization', 'Parking Layout'],
     description:
@@ -80,10 +69,7 @@ const projects: Project[] = [
     id: 'p5',
     name: 'Granite & Wood Duplex — Elevation',
     category: '3D Elevations',
-<<<<<<< HEAD
-=======
     location: 'Chittoor, AP',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Exterior Design', 'Lighting Design'],
     description:
@@ -95,10 +81,7 @@ const projects: Project[] = [
     id: 'p6',
     name: '38 ft Courtyard Plan — 2BHK',
     category: '2D Floor Plans',
-<<<<<<< HEAD
-=======
     location: 'Chittoor, AP',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['2D Floor Plan', 'Space Planning', 'Landscape Layout'],
     description:
@@ -110,10 +93,7 @@ const projects: Project[] = [
     id: 'p7',
     name: '3D Ground Floor Plan — 3BHK',
     category: '2D Floor Plans',
-<<<<<<< HEAD
-=======
     location: 'Andhra Pradesh',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Floor Plan', 'Interior Layout', 'Furniture Planning'],
     description:
@@ -125,10 +105,7 @@ const projects: Project[] = [
     id: 'p8',
     name: 'Single-Storey Villa — Landscaped Court',
     category: 'Residential',
-<<<<<<< HEAD
-=======
     location: 'Chittoor, AP',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['Residential Design', 'Landscape Design', 'Compound Wall'],
     description:
@@ -140,10 +117,7 @@ const projects: Project[] = [
     id: 'p9',
     name: 'Villa Elevation A-68',
     category: '3D Elevations',
-<<<<<<< HEAD
-=======
     location: 'Chittoor, AP',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Exterior Design', 'Compound Wall'],
     description:
@@ -155,10 +129,7 @@ const projects: Project[] = [
     id: 'p10',
     name: 'Residence No. 27 — Elevation',
     category: '3D Elevations',
-<<<<<<< HEAD
-=======
     location: 'Chittoor, AP',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Gate Design', 'Compound Wall'],
     description:
@@ -170,10 +141,7 @@ const projects: Project[] = [
     id: 'p11',
     name: 'Cream Villa — Golden Elevation',
     category: '3D Elevations',
-<<<<<<< HEAD
-=======
     location: 'Andhra Pradesh',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Ornamental Gate', 'Landscape Design'],
     description:
@@ -185,10 +153,7 @@ const projects: Project[] = [
     id: 'p12',
     name: 'Third Floor Plan — 27×54 ft',
     category: '2D Floor Plans',
-<<<<<<< HEAD
-=======
     location: 'Chittoor, AP',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['2D Floor Plan', 'Space Optimization', 'Lift Planning'],
     description:
@@ -200,10 +165,7 @@ const projects: Project[] = [
     id: 'p13',
     name: 'Master Bedroom — Interior Design',
     category: 'Interiors',
-<<<<<<< HEAD
-=======
     location: 'Chittoor, AP',
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['Interior Design', 'Furniture Layout', 'Lighting Design'],
     description:
@@ -273,6 +235,10 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
             <div className="mb-5">
               <h4 className="font-body font-bold text-[#FFD43B] text-xs tracking-widest uppercase mb-3">DETAILS</h4>
               <div className="space-y-2">
+                <div className="flex justify-between text-sm border-b border-[#F5F0E7]/10 pb-2">
+                  <span className="text-[#A7A7A2]">Location</span>
+                  <span className="text-[#F5F0E7] font-semibold">{project.location}</span>
+                </div>
                 <div className="flex justify-between text-sm border-b border-[#F5F0E7]/10 pb-2">
                   <span className="text-[#A7A7A2]">Year</span>
                   <span className="text-[#F5F0E7] font-semibold">{project.year}</span>
@@ -383,11 +349,7 @@ export default function Projects() {
                 Each project begins with your vision and ends with a space built around your life.
               </p>
               <p className="section-label text-[#A7A7A2]">
-<<<<<<< HEAD
-                Real portfolio projects by Modern Architect
-=======
                 Real portfolio projects by Modern Architect — Chittoor, AP
->>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
               </p>
             </motion.div>
           </div>
@@ -475,7 +437,7 @@ export default function Projects() {
                       >
                         {project.name}
                       </h3>
-                      <p className="section-label text-[#A7A7A2] mb-4">{project.year}</p>
+                      <p className="section-label text-[#A7A7A2] mb-4">{project.location} · {project.year}</p>
                       <div className="flex items-center gap-2 text-gold-metallic font-body font-extrabold text-xs tracking-widest uppercase">
                         VIEW PROJECT
                         <ArrowUpRight size={14} />
@@ -487,6 +449,7 @@ export default function Projects() {
                   <div className="bg-[#151515] px-4 py-3 flex items-center justify-between group-hover:bg-[#1e1e1e] transition-colors duration-300">
                     <div>
                       <h3 className="font-body font-bold text-[#F5F0E7] text-sm">{project.name}</h3>
+                      <p className="section-label text-[#A7A7A2] mt-0.5">{project.location}</p>
                     </div>
                     <ArrowUpRight
                       size={16}
