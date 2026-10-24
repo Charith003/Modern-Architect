@@ -20,6 +20,10 @@ const projects: Project[] = [
     id: 'p1',
     name: 'Modern Corner Villa — Elevation',
     category: '3D Elevations',
+<<<<<<< HEAD
+=======
+    location: 'Chittoor, AP',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Exterior Design', 'Gate Design'],
     description:
@@ -31,6 +35,10 @@ const projects: Project[] = [
     id: 'p2',
     name: 'Four-Storey Residence — Elevation',
     category: '3D Elevations',
+<<<<<<< HEAD
+=======
+    location: 'Chittoor, AP',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Facade Design', 'Landscape Planning'],
     description:
@@ -42,6 +50,10 @@ const projects: Project[] = [
     id: 'p3',
     name: 'Curved Balcony Villa — Elevation',
     category: '3D Elevations',
+<<<<<<< HEAD
+=======
+    location: 'Andhra Pradesh',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Jali Screens', 'Compound Wall'],
     description:
@@ -53,6 +65,10 @@ const projects: Project[] = [
     id: 'p4',
     name: '20×70 Floor Plan — 2BHK',
     category: '2D Floor Plans',
+<<<<<<< HEAD
+=======
+    location: 'Chittoor, AP',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['2D Floor Plan', 'Space Optimization', 'Parking Layout'],
     description:
@@ -64,6 +80,10 @@ const projects: Project[] = [
     id: 'p5',
     name: 'Granite & Wood Duplex — Elevation',
     category: '3D Elevations',
+<<<<<<< HEAD
+=======
+    location: 'Chittoor, AP',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Exterior Design', 'Lighting Design'],
     description:
@@ -75,6 +95,10 @@ const projects: Project[] = [
     id: 'p6',
     name: '38 ft Courtyard Plan — 2BHK',
     category: '2D Floor Plans',
+<<<<<<< HEAD
+=======
+    location: 'Chittoor, AP',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['2D Floor Plan', 'Space Planning', 'Landscape Layout'],
     description:
@@ -86,6 +110,10 @@ const projects: Project[] = [
     id: 'p7',
     name: '3D Ground Floor Plan — 3BHK',
     category: '2D Floor Plans',
+<<<<<<< HEAD
+=======
+    location: 'Andhra Pradesh',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Floor Plan', 'Interior Layout', 'Furniture Planning'],
     description:
@@ -97,6 +125,10 @@ const projects: Project[] = [
     id: 'p8',
     name: 'Single-Storey Villa — Landscaped Court',
     category: 'Residential',
+<<<<<<< HEAD
+=======
+    location: 'Chittoor, AP',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['Residential Design', 'Landscape Design', 'Compound Wall'],
     description:
@@ -108,6 +140,10 @@ const projects: Project[] = [
     id: 'p9',
     name: 'Villa Elevation A-68',
     category: '3D Elevations',
+<<<<<<< HEAD
+=======
+    location: 'Chittoor, AP',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Exterior Design', 'Compound Wall'],
     description:
@@ -119,6 +155,10 @@ const projects: Project[] = [
     id: 'p10',
     name: 'Residence No. 27 — Elevation',
     category: '3D Elevations',
+<<<<<<< HEAD
+=======
+    location: 'Chittoor, AP',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Gate Design', 'Compound Wall'],
     description:
@@ -130,6 +170,10 @@ const projects: Project[] = [
     id: 'p11',
     name: 'Cream Villa — Golden Elevation',
     category: '3D Elevations',
+<<<<<<< HEAD
+=======
+    location: 'Andhra Pradesh',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['3D Elevation', 'Ornamental Gate', 'Landscape Design'],
     description:
@@ -141,6 +185,10 @@ const projects: Project[] = [
     id: 'p12',
     name: 'Third Floor Plan — 27×54 ft',
     category: '2D Floor Plans',
+<<<<<<< HEAD
+=======
+    location: 'Chittoor, AP',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['2D Floor Plan', 'Space Optimization', 'Lift Planning'],
     description:
@@ -152,6 +200,10 @@ const projects: Project[] = [
     id: 'p13',
     name: 'Master Bedroom — Interior Design',
     category: 'Interiors',
+<<<<<<< HEAD
+=======
+    location: 'Chittoor, AP',
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
     year: '2026',
     services: ['Interior Design', 'Furniture Layout', 'Lighting Design'],
     description:
@@ -331,7 +383,11 @@ export default function Projects() {
                 Each project begins with your vision and ends with a space built around your life.
               </p>
               <p className="section-label text-[#A7A7A2]">
+<<<<<<< HEAD
                 Real portfolio projects by Modern Architect
+=======
+                Real portfolio projects by Modern Architect — Chittoor, AP
+>>>>>>> 2741147b14b1b5c601190da84194e368552e70c2
               </p>
             </motion.div>
           </div>
