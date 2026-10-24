@@ -155,7 +155,7 @@ export default function Hero() {
               {/* Stat 2 */}
               <div className="flex flex-col gap-1 border-l border-white/12 pl-4">
                 <span className="font-display text-gold-metallic leading-none" style={{ fontSize: 'clamp(1.6rem, 4vw, 2.25rem)' }}>
-                  75+k
+                  100k+
                 </span>
                 <span className="font-body text-[10px] sm:text-[11px] font-semibold tracking-wider text-slate-400 uppercase leading-tight">
                   INSTAGRAM FOLLOWERS

@@ -12,7 +12,7 @@ const services = [
     highlight: 'SPACE · FUNCTION · FLOW',
     bg: '#151515',
     accent: '#D4AF37',
-    image: '/images/floorplan.jpg',
+    image: '/images/plan-third-floor-27x54.jpg',
   },
   {
     number: '02',
@@ -23,7 +23,7 @@ const services = [
     highlight: 'CONCEPT · MATERIAL · DETAIL',
     bg: '#2563EB',
     accent: '#D4AF37',
-    image: '/images/elevation1.jpg',
+    image: '/images/elevation-residence-27.jpg',
   },
   {
     number: '03',
@@ -34,7 +34,7 @@ const services = [
     highlight: 'PLAN · EXECUTE · DELIVER',
     bg: '#F5F0E7',
     accent: '#F36B38',
-    image: '/images/hero.jpg',
+    image: '/images/villa-aerial.jpg',
   },
   {
     number: '04',
@@ -45,7 +45,7 @@ const services = [
     highlight: 'AESTHETIC · FUNCTION · COMFORT',
     bg: '#151515',
     accent: '#F36B38',
-    image: '/images/interior.jpg',
+    image: '/images/interior-master-bedroom.jpg',
   },
   {
     number: '05',
@@ -67,7 +67,7 @@ const services = [
     highlight: 'OPTIMIZE · ADAPT · INHABIT',
     bg: '#1A1A2E',
     accent: '#2563EB',
-    image: '/images/kitchen.jpg',
+    image: '/images/plan-38ft-courtyard.jpg',
   },
 ];
 

@@ -115,7 +115,7 @@ export default function Contact() {
                   <div className="section-label text-[#A7A7A2] mb-1">INSTAGRAM</div>
                   <div className="font-body text-[#F5F0E7] group-hover:text-gold-metallic transition-colors font-semibold">
                     @modernarchitect68
-                    <span className="ml-2 text-xs text-[#A7A7A2] font-normal">75+k INSTAGRAM FOLLOWERS</span>
+                    <span className="ml-2 text-xs text-[#A7A7A2] font-normal">100k+ INSTAGRAM FOLLOWERS</span>
                   </div>
                 </div>
               </motion.a>
@@ -143,7 +143,7 @@ export default function Contact() {
                 <div className="section-label text-[#151515]/60 mt-1">YEARS EXPERIENCE</div>
               </div>
               <div>
-                <div className="font-display text-gold-metallic text-4xl">75+k</div>
+                <div className="font-display text-gold-metallic text-4xl">100k+</div>
                 <div className="section-label text-[#151515]/60 mt-1">INSTAGRAM FOLLOWERS</div>
               </div>
             </div>
