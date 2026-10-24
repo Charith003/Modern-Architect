@@ -4,12 +4,12 @@ import { ArrowUpRight } from 'lucide-react';
 import { InstagramIcon as Instagram } from './icons';
 
 const galleryImages = [
-  { src: '/images/hero.jpg',       alt: 'Luxury modern Indian home - twilight exterior',              caption: 'Exterior Concept' },
-  { src: '/images/elevation1.jpg', alt: 'Contemporary elevation with dark facade and wood accents',   caption: '3D Elevation'     },
-  { src: '/images/elevation2.jpg', alt: 'Three storey villa with ornamental iron gate at sunset',     caption: 'Villa Design'     },
-  { src: '/images/floorplan.jpg',  alt: 'Detailed 2D architectural floor plan',                       caption: '2D Floor Plan'    },
-  { src: '/images/interior.jpg',   alt: 'Open-plan luxury living room interior',                      caption: 'Interior Design'  },
-  { src: '/images/kitchen.jpg',    alt: 'Modern modular kitchen with marble counters',                caption: 'Kitchen Design'   },
+  { src: '/images/hero.jpg',                     alt: 'Modern two-storey villa elevation with cantilevered balcony and stone feature wall', caption: 'Exterior Design'    },
+  { src: '/images/elevation-residence-27.jpg',   alt: 'Residence No.27 four-storey elevation with curved balcony frame',                     caption: '3D Elevation'       },
+  { src: '/images/elevation-cream-villa.jpg',    alt: 'Cream villa elevation with LED cove lighting and jali balcony',                       caption: 'Villa Design'       },
+  { src: '/images/plan-third-floor-27x54.jpg',   alt: 'Third floor 2D plan with lift, balcony and Namaz room',                               caption: '2D Floor Plan'      },
+  { src: '/images/interior-master-bedroom.jpg',  alt: 'Master bedroom with tropical relief wall and teal upholstered bed',                   caption: 'Interior Design'    },
+  { src: '/images/villa-aerial.jpg',             alt: 'Aerial view of single-storey villa with landscaped courtyard and parking',            caption: 'Residential Design' },
 ];
 
 export default function InstagramFeed() {
@@ -92,7 +92,7 @@ export default function InstagramFeed() {
             {/* Follower count */}
             <div className="mb-1">
               <span className="font-display text-gold-metallic" style={{ fontSize: 'clamp(1.5rem, 4vw, 2rem)' }}>
-                75+k
+                100k+
               </span>
             </div>
             <div className="section-label text-[#A7A7A2] mb-5 tracking-widest">INSTAGRAM FOLLOWERS</div>

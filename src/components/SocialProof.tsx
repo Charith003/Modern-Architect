@@ -5,11 +5,11 @@ import { InstagramIcon as Instagram } from './icons';
 
 // Gallery items — first image is featured (spans 2 rows on desktop)
 const galleryItems = [
-  { src: '/images/elevation1.jpg', alt: 'Modern residential elevation with wood accents', featured: true },
-  { src: '/images/elevation2.jpg', alt: 'Three-storey luxury villa with ornate gate', featured: false },
-  { src: '/images/interior.jpg', alt: 'Contemporary open-plan living room interior', featured: false },
-  { src: '/images/kitchen.jpg', alt: 'Premium modular kitchen with marble countertop', featured: false },
-  { src: '/images/floorplan.jpg', alt: '2D architectural floor plan drawing', featured: false },
+  { src: '/images/elevation-residence-27.jpg',   alt: 'Residence No.27 four-storey modern elevation with curved balcony frame', featured: true },
+  { src: '/images/elevation-a68-villa.jpg',      alt: 'Villa A-68 elevation with dark granite, wood slats and glass balcony', featured: false },
+  { src: '/images/interior-master-bedroom.jpg',  alt: 'Master bedroom interior with tropical relief wall and teal bed', featured: false },
+  { src: '/images/elevation-curved-villa.jpg',   alt: 'Curved-balcony villa with jali panel and marble feature wall', featured: false },
+  { src: '/images/plan-third-floor-27x54.jpg',   alt: 'Third floor 2D plan with master bedroom, living, kitchen and lift', featured: false },
 ];
 
 export default function SocialProof() {
@@ -62,7 +62,7 @@ export default function SocialProof() {
                 className="font-display text-gold-shimmer"
                 style={{ fontSize: 'clamp(4.5rem, 14vw, 9rem)', lineHeight: 1 }}
               >
-                75+k
+                100k+
               </span>
             </motion.div>
 
@@ -101,7 +101,7 @@ export default function SocialProof() {
               className="flex items-start gap-5 sm:gap-8 mb-7 pb-7 border-b border-[#F5F0E7]/10"
             >
               <div className="flex flex-col gap-1">
-                <span className="font-display text-gold-metallic text-2xl sm:text-3xl leading-none">75+k</span>
+                <span className="font-display text-gold-metallic text-2xl sm:text-3xl leading-none">100k+</span>
                 <span className="section-label text-[#A7A7A2] leading-snug">INSTAGRAM FOLLOWERS</span>
               </div>
               <div className="w-px self-stretch bg-[#F5F0E7]/12" />

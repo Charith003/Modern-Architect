@@ -25,7 +25,7 @@ export default function About() {
           className="relative overflow-hidden min-h-[55vw] sm:min-h-[50vw] lg:min-h-0"
         >
           <img
-            src="/images/elevation2.jpg"
+            src="/images/elevation-cream-villa.jpg"
             alt="Premium residential architecture by Modernarchitect Builders"
             className="w-full h-full object-cover"
             loading="lazy"
