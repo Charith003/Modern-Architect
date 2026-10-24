@@ -34,7 +34,7 @@ export default function SocialProof() {
         className="absolute left-0 top-0 bottom-0 w-[3px] bg-gradient-to-b from-[#D4AF37] via-[#FFF099] to-[#D4AF37] origin-top"
       />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-20 md:py-28">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 py-12 sm:py-20 md:py-28">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 xl:gap-20 items-start">
 
           {/* ── Left: Text content ── */}
@@ -60,7 +60,7 @@ export default function SocialProof() {
             >
               <span
                 className="font-display text-gold-shimmer"
-                style={{ fontSize: 'clamp(4.5rem, 14vw, 9rem)', lineHeight: 1 }}
+                style={{ fontSize: 'clamp(2.8rem, 12vw, 6rem)', lineHeight: 1.05 }}
               >
                 100k+
               </span>
@@ -71,8 +71,8 @@ export default function SocialProof() {
               initial={{ opacity: 0, y: 24 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.3, duration: 0.8 }}
-              className="font-display text-[#F5F0E7] mb-5"
-              style={{ fontSize: 'clamp(1.6rem, 4vw, 3rem)', lineHeight: 1.05 }}
+              className="font-display text-[#F5F0E7] mb-6"
+              style={{ fontSize: 'clamp(1.25rem, 5.5vw, 3rem)', lineHeight: 1.15, overflowWrap: 'anywhere' }}
             >
               INSTAGRAM FOLLOWERS.
               <br />
