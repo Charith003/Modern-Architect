@@ -21,7 +21,7 @@ const projects: Project[] = [
     id: 'p1',
     name: 'Modern Corner Villa — Elevation',
     category: '3D Elevations',
-    location: 'Chittoor, AP',
+    location: 'Chennai, Tamil Nadu',
     year: '2026',
     services: ['3D Elevation', 'Exterior Design', 'Gate Design'],
     description:
@@ -33,7 +33,7 @@ const projects: Project[] = [
     id: 'p2',
     name: 'Four-Storey Residence — Elevation',
     category: '3D Elevations',
-    location: 'Chittoor, AP',
+    location: 'Bangalore, Karnataka ',
     year: '2026',
     services: ['3D Elevation', 'Facade Design', 'Landscape Planning'],
     description:
@@ -57,7 +57,7 @@ const projects: Project[] = [
     id: 'p4',
     name: '20×70 Floor Plan — 2BHK',
     category: '2D Floor Plans',
-    location: 'Chittoor, AP',
+    location: 'Bangalore, Karnataka ',
     year: '2026',
     services: ['2D Floor Plan', 'Space Optimization', 'Parking Layout'],
     description:
@@ -81,7 +81,7 @@ const projects: Project[] = [
     id: 'p6',
     name: '38 ft Courtyard Plan — 2BHK',
     category: '2D Floor Plans',
-    location: 'Chittoor, AP',
+    location: 'Vijayawada, Andhra Pradesh ',
     year: '2026',
     services: ['2D Floor Plan', 'Space Planning', 'Landscape Layout'],
     description:
@@ -129,7 +129,7 @@ const projects: Project[] = [
     id: 'p10',
     name: 'Residence No. 27 — Elevation',
     category: '3D Elevations',
-    location: 'Chittoor, AP',
+    location: 'Mumbai, Maharashtra ',
     year: '2026',
     services: ['3D Elevation', 'Gate Design', 'Compound Wall'],
     description:
@@ -141,7 +141,7 @@ const projects: Project[] = [
     id: 'p11',
     name: 'Cream Villa — Golden Elevation',
     category: '3D Elevations',
-    location: 'Andhra Pradesh',
+    location: 'West Bengal',
     year: '2026',
     services: ['3D Elevation', 'Ornamental Gate', 'Landscape Design'],
     description:
@@ -153,7 +153,7 @@ const projects: Project[] = [
     id: 'p12',
     name: 'Third Floor Plan — 27×54 ft',
     category: '2D Floor Plans',
-    location: 'Chittoor, AP',
+    location: 'Vijayawada, Andhra Pradesh ',
     year: '2026',
     services: ['2D Floor Plan', 'Space Optimization', 'Lift Planning'],
     description:
@@ -165,7 +165,7 @@ const projects: Project[] = [
     id: 'p13',
     name: 'Master Bedroom — Interior Design',
     category: 'Interiors',
-    location: 'Chittoor, AP',
+    location: 'Vellore, Tamil Nadu',
     year: '2026',
     services: ['Interior Design', 'Furniture Layout', 'Lighting Design'],
     description:
@@ -173,6 +173,19 @@ const projects: Project[] = [
     image: '/images/interior-master-bedroom.jpg',
     size: 'medium',
   },
+    {
+    id: 'p14',
+    name: 'Contemporary Apartment Building — Elevation',
+    category: '3D Elevations',
+    location: 'Chittoor, AP',
+    year: '2026',
+    services: ['3D Elevation', 'Facade Design', 'Exterior Lighting', 'Landscape Design'],
+    description:
+      'A contemporary multi-storey residential building featuring a refined cream facade, deep recessed balconies, vertical wood-finish louvers and a striking central feature panel. Warm LED accent lighting highlights the architectural lines, while greenery adds a natural touch to the balconies. The entrance is complemented by a landscaped compound wall with Modern Architect branding and a covered parking area.',
+    image: '/images/elevation-apartment-building.jpg',
+    size: 'medium',
+  },
+  
 ];
 
 function ProjectModal({ project, onClose }: { project: Project; onClose: () => void }) {
